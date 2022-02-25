@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .h1 {
+    @apply text-[72px] font-Basic font-normal leading-[80px];
+  }
+  .h2 {
+    @apply text-[56px]  font-Basic leading-[64px];
+  }
 
-*{
-    margin:0;
-    padding:0;
+  .h5 {
+    @apply text-[20px] font-bold;
+  }
+  .h4 {
+    @apply text-[24px] font-bold;
+  }
 }
